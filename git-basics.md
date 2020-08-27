@@ -1,5 +1,6 @@
-## GIT
-Git is a Distributed Version Control System
+# GIT
+  Git is a Distributed Version Control System
+
 
 Git takes a snapspot -> commit
 
@@ -13,10 +14,12 @@ Initialize GIT : Letting git know that this directory needs to tracked
 Make some change
 
 
-MOve that change to staging
+Move that change to staging
 `git add <file_containgin_the_change>`
 
 commit the change
 `git commit`
+  or
+`git commit -am 'commit message'`
   or
 `git commit -m "commit message"`
