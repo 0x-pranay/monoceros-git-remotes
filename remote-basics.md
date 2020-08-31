@@ -11,3 +11,13 @@
  - add a remote  <remote-git-url> and names it origin.
  - git pull.
 
+# git push
+  git push origin <branch_name>
+
+
+# git fetch
+  Download the latest changes from remote repo and into your local repo ina branch named  remotes/origin/<branch_name>
+  `git fetch origin <branch_name>`
+# git pull
+  git fetch + git merge
+  `git pull origin <branch_name>`
