@@ -21,3 +21,17 @@
 # git pull
   git fetch + git merge
   `git pull origin <branch_name>`
+
+
+# trackign
+
+while creating a branch
+
+`git checkout --track origin/<branch_name>`
+ or
+
+if branch already exit
+`git branch -u origin/<branch_name>`
+
+while pulling or pushing
+`git push -u origin <branch_name>`
